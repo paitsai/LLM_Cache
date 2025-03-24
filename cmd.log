@@ -1,0 +1,2 @@
+huggingface-cli download Qwen/Qwen2.5-7B  --local-dir ~/autodl-tmp/models/Qwen2.5-7B  #下载基准测试模型
+optimum-cli export onnx --model /root/autodl-tmp/models/Qwen2.5-1.5B Qwen_1.5B_onnx/ --task text-generation-with-past #模型转换onnx
